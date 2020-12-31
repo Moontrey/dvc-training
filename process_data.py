@@ -1,7 +1,7 @@
 
 import pandas as pd
 
-df = pd.read_csv("data_raw.csv")
+df = pd.read_csv("data/data_raw.csv")
 
 all_features = df.columns
 
@@ -25,4 +25,4 @@ for col in non_numeric:
     codes,uniques=pd.factorize(df[col])
     df[col] = codes
 
-df.to_csv("data_processed.csv")
+df.to_csv("data/data_processed.csv")

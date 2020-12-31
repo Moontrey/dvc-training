@@ -11,7 +11,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.impute import SimpleImputer
 
-df = pd.read_csv("data_processed.csv")
+df = pd.read_csv("data/data_processed.csv")
 
 #### Get features ready to model! 
 y = df.pop("cons_general").to_numpy()
@@ -29,7 +29,7 @@ X = imp.transform(X)
 
 # Linear model
 clf = LogisticRegression()
-yhat = cross_val_predict(clf, X, y, cv=5)
+yhat = cross_val_predict(clf, X, y, cv=10)
 
 acc = np.mean(yhat==y)
 tn, fp, fn, tp = confusion_matrix(y, yhat).ravel()

@@ -25,12 +25,12 @@ train:
     md5: 3b20a3a6ac0570f3de28b77d1e88f932
     size: 24521
   - path: train.py
-    md5: 962bc240cf3806f17acf9c2d03586e2f
-    size: 1470
+    md5: 21831584da75142e484a0fa3c7ff90d2
+    size: 1471
   outs:
   - path: by_region.png
-    md5: efdcc88e1a8417a6d9d61af8634743e2
-    size: 7811
+    md5: 330c2624f21b098ab9e6583c684e6ae9
+    size: 7823
   - path: metrics.json
-    md5: f4844c28505568f336c5f91db3f1beb3
-    size: 89
+    md5: da3f8fc3d3740df2d0632169658621a9
+    size: 90
