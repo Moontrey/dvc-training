@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/data_raw.csv
+/data_processed.csv
+/by_region.png
