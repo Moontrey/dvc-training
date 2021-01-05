@@ -1,0 +1,15 @@
+artifact_uri: file:///home/moontrey/Documents/dvc/dvc-training/mlruns/0/6edfbdef341a4a1ba2dbc8d1ad09dde8/artifacts
+end_time: 1609849777153
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 6edfbdef341a4a1ba2dbc8d1ad09dde8
+run_uuid: 6edfbdef341a4a1ba2dbc8d1ad09dde8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1609849776923
+status: 3
+tags: []
+user_id: moontrey
