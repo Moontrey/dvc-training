@@ -1,13 +1,3 @@
-process:
-  cmd: python process_data.py
-  deps:
-  - path: process_data.py
-    md5: 4e8b90e4d4e7d3bd700aff57c8520cbe
-    size: 899
-  outs:
-  - path: data_processed.csv
-    md5: 3b20a3a6ac0570f3de28b77d1e88f932
-    size: 24521
 get_data:
   cmd: python get_data.py
   deps:
@@ -18,19 +8,3 @@ get_data:
   - path: data_raw.csv
     md5: a6aec8da63a5fa2619af025a76746f29
     size: 68868
-train:
-  cmd: python train.py
-  deps:
-  - path: data_processed.csv
-    md5: 3b20a3a6ac0570f3de28b77d1e88f932
-    size: 24521
-  - path: train.py
-    md5: 21831584da75142e484a0fa3c7ff90d2
-    size: 1471
-  outs:
-  - path: by_region.png
-    md5: 330c2624f21b098ab9e6583c684e6ae9
-    size: 7823
-  - path: metrics.json
-    md5: da3f8fc3d3740df2d0632169658621a9
-    size: 90
