@@ -1,4 +1,4 @@
 # dvc-training
-to get data: ```dvc-pull``` 
+to get data: ```dvc pull``` 
 
-when something changed: ```dvc-repro```
+when something changed: ```dvc repro```
